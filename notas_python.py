@@ -1,6 +1,36 @@
-#Lista de Estudiantes 
 Estudiantes = [
+    {"Nombre": "Paula", "Notas": [3.6, 4.8, 6.6]},
+    {"Nombre": "Juan", "Notas": [4.0, 5.5, 3.8]},
+    {"Nombre": "María", "Notas": [6.2, 2.8, 4.5]},
+    {"Nombre": "Pedro", "Notas": [5.0, 3.6, 1.2]},
+    {"Nombre": "Carla", "Notas": [2.5, 6.8, 4.9]},
+    {"Nombre": "Andrés", "Notas": [3.1, 4.0, 6.7]},
+    {"Nombre": "Valentina", "Notas": [5.9, 2.4, 3.3]},
+    {"Nombre": "Matías", "Notas": [6.5, 4.2, 2.0]},
+    {"Nombre": "Camila", "Notas": [1.8, 5.6, 6.4]},
+    {"Nombre": "Diego", "Notas": [3.7, 4.9, 2.1]},
+    {"Nombre": "Fernanda", "Notas": [6.9, 5.1, 4.0]},
+    {"Nombre": "Rodrigo", "Notas": [2.2, 6.7, 3.6]},
+    {"Nombre": "Isabel", "Notas": [4.3, 5.5, 2.7]},
+    {"Nombre": "Tomás", "Notas": [3.9, 1.5, 6.8]},
+    {"Nombre": "Constanza", "Notas": [5.4, 4.1, 2.9]},
+    {"Nombre": "Felipe", "Notas": [6.0, 3.3, 5.8]},
+    {"Nombre": "Josefa", "Notas": [2.1, 4.6, 6.4]},
+    {"Nombre": "Sebastián", "Notas": [3.0, 6.7, 5.2]},
+    {"Nombre": "Antonella", "Notas": [1.9, 4.4, 6.1]},
+    {"Nombre": "Cristóbal", "Notas": [5.6, 2.3, 3.7]},
+    {"Nombre": "Gabriela", "Notas": [6.8, 3.5, 4.2]},
+    {"Nombre": "Ignacio", "Notas": [2.6, 5.7, 6.9]},
+    {"Nombre": "Alejandra", "Notas": [3.2, 1.8, 4.7]},
+    {"Nombre": "Vicente", "Notas": [5.0, 6.3, 2.2]},
+    {"Nombre": "Francisca", "Notas": [4.9, 3.7, 6.1]},
+    {"Nombre": "Javier", "Notas": [2.4, 4.8, 5.6]},
+    {"Nombre": "Daniela", "Notas": [3.6, 6.5, 2.0]},
+    {"Nombre": "Mauricio", "Notas": [6.7, 4.4, 3.3]},
+    {"Nombre": "Beatriz", "Notas": [2.8, 5.9, 1.7]},
+    {"Nombre": "Patricio", "Notas": [4.2, 6.6, 3.1]}
 ]
+
 import statistics  # se usa esta librería para calcular medidas estadísticas como moda, promedio, mediana, etc.
 
 def promedios_estudiantes(estudiantes):
